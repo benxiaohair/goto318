@@ -2,7 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 
-class IndexController extends Controller {
+class CommentController extends Controller {
 
     public function index() {
         echo 'hello world!';
