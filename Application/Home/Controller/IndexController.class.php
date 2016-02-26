@@ -25,4 +25,10 @@ class IndexController extends Controller {
         $this->assign('data', $return);
 
     }
+
+    public function cacuse(){
+        $str = '80+90';
+        preg_match('/(\d+)([+-])(\d+)/i',$str,$res);
+        print_r($res);
+    }
 }
