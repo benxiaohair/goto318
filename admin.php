@@ -1,25 +1,24 @@
 <?php
-// +----------------------------------------------------------------------
-// | ThinkPHP [ WE CAN DO IT JUST THINK ]
-// +----------------------------------------------------------------------
-// | Copyright (c) 2006-2014 http://thinkphp.cn All rights reserved.
-// +----------------------------------------------------------------------
-// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
-// +----------------------------------------------------------------------
-// | Author: liu21st <liu21st@gmail.com>
-// +----------------------------------------------------------------------
-
-// 应用入口文件
-
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2015/7/26 0026
+ * Time: 17:22
+ */
 // 检测PHP环境
 if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
-
+//301跳转
+if($_SERVER['HTTP_HOST'] == 'goto318.com') {
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: http://www.goto318.com');
+}
 // 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
 define('APP_DEBUG',True);
 
+define('BIND_MODULE','Admin');  //后台管理入口
+
 // 定义应用目录
 define('APP_PATH','./Application/');
-define('BIND_MODULE','Admin');
 
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
