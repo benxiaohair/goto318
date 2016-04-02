@@ -1,0 +1,200 @@
+[ 2016-02-26T12:00:14+08:00 ] 140.207.54.80 /Wx.php?signature=c9fc254c8b4045cf306ee49364237b13b4bd4216&timestamp=1456459214&nonce=2000263944
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-02-26T12:00:24+08:00 ] 140.207.54.78 /Wx.php?signature=c9b49e71088c6e4557b03626b9f054ab77740c9e&timestamp=1456459224&nonce=265559953
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-02-26T12:01:34+08:00 ] 140.207.54.78 /Wx.php?signature=6771391b3957ca6545ea10a4c36bce653514a723&timestamp=1456459294&nonce=935698597
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-02-26T12:02:44+08:00 ] 140.207.54.73 /Wx.php?signature=76a687e57359659fda4a8c1569582e1f93acb54a&timestamp=1456459364&nonce=77000056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-02-26T12:02:48+08:00 ] 140.207.54.73 /Wx.php?signature=9a08eae41fc1ec470aa93622b078c6afb77c05d9&timestamp=1456459368&nonce=1239890645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-02-26T12:04:38+08:00 ] 140.207.54.78 /Wx.php?signature=a5151b35002519be334b0567f77ce60f27c62989&timestamp=1456459478&nonce=73253255
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-02-26T12:04:45+08:00 ] 140.207.54.80 /Wx.php?signature=9e302e435fb60e837ece146b542c8c89c8d7d2bd&timestamp=1456459484&nonce=447715809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-02-26T12:34:04+08:00 ] 140.207.54.79 /Wx.php?signature=5d310826fb2a86eecbb6d576de159167411a9876&timestamp=1456461243&nonce=525350049
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-02-26T12:37:36+08:00 ] 140.207.54.78 /Wx.php?signature=235913088481d889dcae7e4df8673169615bf1ff&timestamp=1456461455&nonce=1299996057
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-02-26T14:04:39+08:00 ] 140.207.54.78 /Wx.php?signature=50f883db65b3e38fcde711f7a0cedbf38179c14f&timestamp=1456466679&nonce=139487140
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-02-26T14:06:07+08:00 ] 140.207.54.80 /Wx.php?signature=3b31979bc30a14b902d4ceff1b970d6039922554&timestamp=1456466767&nonce=1379769491
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-02-26T14:08:27+08:00 ] 140.207.54.78 /Wx.php?signature=e2ec9cd55741ed6125c02310c758506750c3da86&timestamp=1456466907&nonce=1464119425
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-02-26T14:08:42+08:00 ] 140.207.54.78 /Wx.php?signature=e9da25d8fd6b6939123b2a25c262c3944483537c&timestamp=1456466922&nonce=1602602323
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-02-26T14:19:37+08:00 ] 140.207.54.77 /Wx.php?signature=44e0519f54ee376cad3a2cb4efbb63db3d6b9bf9&timestamp=1456467576&nonce=1470934563
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-02-26T14:21:53+08:00 ] 140.207.54.78 /Wx.php?signature=82129249dce055a34e7369b2f5d9a55272ead1d8&timestamp=1456467712&nonce=510336839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-02-26T14:22:33+08:00 ] 140.207.54.77 /Wx.php?signature=409be3725a30170d91d730bdd13b2ab0a321f9de&timestamp=1456467753&nonce=789051397
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-02-26T14:23:10+08:00 ] 140.207.54.78 /Wx.php?signature=3c99aa54a722843f78fa94e6ceea89f305a1a5a9&timestamp=1456467790&nonce=82835723
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-02-26T14:28:40+08:00 ] 140.207.54.80 /Wx.php?signature=25cd600ea9942f157ce556e4f608069d0e75910f&timestamp=1456468120&nonce=1654984715
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2016-02-26T14:48:33+08:00 ] 140.207.54.77 /Wx.php?signature=0766ea10e87066be590ee9f9a2dee3dcf8a4a9e1&timestamp=1456469312&nonce=2059192840
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-02-26T14:48:53+08:00 ] 140.207.54.78 /Wx.php?signature=d0c13914121d7cec304fda59db205fb8e6b6a36c&timestamp=1456469332&nonce=489556778
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-02-26T14:49:03+08:00 ] 140.207.54.76 /Wx.php?signature=0e39da96776004511953a8412e7b766ab7f4a234&timestamp=1456469342&nonce=827925499
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-02-26T16:27:01+08:00 ] 140.207.54.78 /Wx.php?signature=e4a7b2cd240ad03706bfc3f15303e47679c794b6&timestamp=1456475220&nonce=1910955637
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+

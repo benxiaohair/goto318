@@ -1,0 +1,49 @@
+[ 2016-02-23T11:54:59+08:00 ] 140.207.54.77 /wx.php?signature=1a9fcc8501d8bbefe1b6462374524fed8f1180cb&echostr=4816787896861195455&timestamp=1456199699&nonce=1114876374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-02-23T11:57:13+08:00 ] 140.207.54.78 /wx.php?signature=da507f492ac6ee453c3ca26f3c8e61e234c8479f&echostr=1098500181634056153&timestamp=1456199833&nonce=794190567
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-02-23T11:57:24+08:00 ] 101.226.103.60 /wx.php?signature=8f7cdb86f795846030dc1a06ae31a8879527e174&echostr=4022435808992286908&timestamp=1456199844&nonce=778064
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-02-23T16:16:13+08:00 ] 180.163.15.159 /wx.php?signature=efb2e11ce728fb1171bfe3eee4d64926d3d585a9&echostr=4084338820596416366&timestamp=1456215372&nonce=1307754527
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-02-23T16:17:14+08:00 ] 140.207.54.78 /wx.php?signature=2000f2cea3e8bf5aeaed92340c60812aafca401c&echostr=3976390374610304926&timestamp=1456215434&nonce=756849936
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+

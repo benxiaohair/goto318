@@ -1,0 +1,515 @@
+[ 2015-09-10T12:57:52+08:00 ] 121.207.141.189 /Admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+
+[ 2015-09-10T12:57:54+08:00 ] 121.207.141.189 /Admin.php/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2015-09-10T12:57:54+08:00 ] 121.207.141.189 /Admin.php/Public/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2015-09-10T12:58:06+08:00 ] 121.207.141.189 /Admin.php/Login/cheakin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `admin` WHERE `user_name` = 'Admin' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+
+[ 2015-09-10T12:58:18+08:00 ] 121.207.141.189 /Admin.php/Public/Verify/0.25130443517341017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2015-09-10T12:58:20+08:00 ] 121.207.141.189 /Admin.php/Public/Verify/0.25130443517341017/0.6507177622072942
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2015-09-10T12:58:24+08:00 ] 121.207.141.189 /Admin.php/Login/cheakin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `admin` WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `admin` SET `last_ip`='2043645373',`last_login`='1441858164' WHERE `user_id` = 1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin_log` (`user_id`,`create_time`,`action`,`ip`) VALUES ('1','1441858164','登录成功！','2043645373') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2015-09-10T12:58:25+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 1 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2015-09-10T13:37:22+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 1 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2015-09-10T13:37:24+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 1 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-09-10T13:37:25+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 1 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2015-09-10T13:37:25+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 1 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002021s ]
+
+[ 2015-09-10T13:37:25+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 1 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2015-09-10T13:37:25+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 1 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2015-09-10T13:37:25+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 1 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-09-10T13:37:25+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 1 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2015-09-10T13:37:25+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 1 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-09-10T13:38:03+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 1 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2015-09-10T13:38:05+08:00 ] 121.207.141.189 /Admin.php/Login/cheakout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2015-09-10T13:38:06+08:00 ] 121.207.141.189 /Admin.php/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2015-09-10T13:38:06+08:00 ] 121.207.141.189 /Admin.php/Public/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2015-09-10T13:38:15+08:00 ] 121.207.141.189 /Admin.php/Login/cheakin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `admin` WHERE `user_name` = 'chen' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `admin` SET `last_ip`='2043645373',`last_login`='1441861755' WHERE `user_id` = 2 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0007s ]
+SQL: INSERT INTO `admin_log` (`user_id`,`create_time`,`action`,`ip`) VALUES ('2','1441861755','登录成功！','2043645373') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2015-09-10T13:38:16+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 2 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2015-09-10T13:48:34+08:00 ] 121.207.141.189 /Admin.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'qxu1591160311'@'localhost' (using password: NO) /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: USERDOMAIN /data/home/qxu1591160311/htdocs/Application/Admin/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `admin_log` WHERE `user_id` = 2 AND `action` = '登录成功！' ORDER BY id desc LIMIT 5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+

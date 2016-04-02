@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台——管理中心</title>
+    <import type="css" file="CSS/admin/index" />
+    <import type="js" file="JS/jquery" />
+    <import type="js" file="JS/Admin/global" />
+    <import type="js" file="JS/Admin/function" />
+</head>
+<body>
+<div id="dcWrap">
+
+    <include file="Public/head" />
+
+    <div id="dcMain">
+        <!-- 当前位置 -->
+        <div id="urHere">DouPHP 管理中心</div>  <div id="mainBox" style="padding-top:18px;">
+
+            <div class="indexBox">
+
+            <table class="indexBoxTwo" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody><tr>
+                    <td class="pr" valign="top" width="65%"><div class="indexBox">
+                        <div class="boxTitle">网站基本信息</div>
+                        <ul>
+                            <table class="tableBasic" border="0" cellpadding="9" cellspacing="0" width="100%">
+                                <tbody><tr>
+                                    <td width="120">单页面数：</td>
+                                    <td><strong>6</strong></td>
+                                    <td width="100">文章总数：</td>
+                                    <td><strong>10</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>商品总数：</td>
+                                    <td><strong>16</strong></td>
+                                    <td>系统语言：</td>
+                                    <td><strong>zh_cn</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>URL 重写：</td>
+                                    <td><strong>开启</strong></td>
+                                    <td>编码：</td>
+                                    <td><strong>UTF-8</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>站点地图：</td>
+                                    <td><strong>开启</strong></td>
+                                    <td>网站域名：</td>
+                                    <td><strong><{$server_web}></strong></td>
+                                </tr>
+                                <tr>
+                                    <td>站点地图：</td>
+                                    <td><strong>开启</strong></td>
+                                    <td>网站域名：</td>
+                                    <td><strong><{$server_web}></strong></td>
+                                </tr>
+                                </tbody></table>
+                        </ul>
+                    </div></td>
+                    <td class="pl" valign="top"><div class="indexBox">
+                        <div class="boxTitle">管理员  登录记录</div>
+                        <ul>
+                            <table class="tableBasic" border="0" cellpadding="6" cellspacing="0" width="100%">
+                                <tbody>
+                                    <tr>
+                                        <th width="45%">IP地址</th>
+                                        <th width="55%">操作日期</th>
+                                    </tr>
+                                    <volist name="client_ip" id="list">
+                                        <tr>
+                                            <td align="center"><{$list['ip']}></td>
+                                            <td align="center"><{$list['create_time']}></td>
+                                        </tr>
+                                    </volist>
+                                </tbody>
+                            </table>
+                        </ul>
+                    </div></td>
+                </tr>
+                </tbody></table>
+            <div class="indexBox">
+                <div class="boxTitle">服务器信息</div>
+                <ul>
+                    <table class="tableBasic" border="0" cellpadding="8" cellspacing="0" width="100%">
+                        <tbody><tr>
+                            <td width="120">服务器操作系统:</td>
+                            <td><{$system}></td>
+                            <td width="100">Web 服务器的IP:</td>
+                            <td><{$server_ip}></td>
+                        </tr>
+                        <tr>
+                            <td>PHP 版本:</td>
+                            <td><{$PHP_V}></td>
+                            <td>MySQL 版本:</td>
+                            <td><{$mysql}></td>
+                        </tr>
+                        <tr>
+                            <td>安全模式:</td>
+                            <td>否</td>
+                            <td>安全模式GID:</td>
+                            <td>否</td>
+                        </tr>
+                        <tr>
+                            <td>Socket 支持:</td>
+                            <td>是</td>
+                            <td>时区设置:</td>
+                            <td><{$timezone}></td>
+                        </tr>
+                        <tr>
+                            <td>GD 版本:</td>
+                            <td>是</td>
+                            <td>Zlib 支持:</td>
+                            <td>是</td>
+                        </tr>
+                        <tr>
+                            <td>文件上传的最大大小:</td>
+                            <td>20M</td>
+                            <td>端口：</td>
+                            <td><{$web_port}></td>
+                        </tr>
+                        </tbody></table>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    <div id="dcFooter">
+        <div id="footer">
+            <div class="line"></div>
+            <ul>
+                版权所有 © 2013-2014
+            </ul>
+        </div>
+    </div>
+    <!-- dcFooter 结束 -->
+    <div class="clear"></div>
+</div>
+
+</body>
+</html>
